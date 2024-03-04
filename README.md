@@ -9,6 +9,7 @@ While the original idea was already awesome (😎), I wanted to bring some chang
  - Software:
 	 - Gapless Playback using VLC (instead of the abandonned and deprecated OmxPlayer)
 	 - Playback control (play/pause, next, previous)
+         - Current episode saving, will resume the last played episode in case of a shutdown
  - Hardware:
 	 - Audio filter for the audio over GPIO
 	 - USB C power instead of micro USB
