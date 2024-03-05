@@ -9,7 +9,7 @@ While the original idea was already awesome (😎), I wanted to bring some chang
  - Software:
 	 - Gapless Playback using VLC (instead of the abandonned and deprecated OmxPlayer)
 	 - Playback control (play/pause, next, previous)
-         - Current episode saving, will resume the last played episode in case of a shutdown
+	 - Current episode saving, will resume the last played episode in case of a shutdown
  - Hardware:
 	 - Audio filter for the audio over GPIO
 	 - USB C power instead of micro USB
@@ -93,9 +93,25 @@ Obviously if you don't care about painting them,  you can skip this step :)
 
 
 ## Assembling the parts
+### VCR
 
-First of  all, solder wires to the three push buttons that will be inserted into the VCR, and insert them like so:
+![vcr](imgs/01.jpg "VCR")
+
+First of  all, solder wires to the three push buttons that will be inserted into the VCR, then snip the non soldered leads and insert them like so:
+
+![vcr](imgs/02.jpg "VCR")![vcr](imgs/03.jpg "VCR")![vcr](imgs/04.jpg "VCR")
 
 Once this is done, route the wires trough the top of the TV like so:
 
+![vcr](imgs/05.jpg "VCR")
+
 And then screw the VCR into place from the inside of the TV.
+
+![vcr](imgs/06.jpg "VCR")
+
+### Power button
+
+Solder wires to your push button and glue the `05 - PowerButton.stl`part onto it.
+![vcr](imgs/07.jpg "Power Button")
+Then, insert the power button into the top of the TV frame and secure it with a bunch of hot glue:
+![vcr](imgs/08.jpg "Power Button")
